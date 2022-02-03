@@ -13,8 +13,12 @@ body{
     margin: auto;
 }
 .container{
-    margin-top: 30px;
+    margin-top: 20px;
 }
+.container-1{
+    margin-top: 50px;
+}
+
 .modello-1{
     display: inline-block;display: inline-block;
     margin-top: 30px;
@@ -86,3 +90,4 @@ body{
 .t-red{
     color: red;
 }
+
