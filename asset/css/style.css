@@ -6,6 +6,7 @@
 }
 /* RESET */
 
+
 body{
     width: 50%;
     margin: auto;
@@ -102,4 +103,5 @@ body{
 .t-red{
     color: red;
 }
+.t-black{color: black;}
 
