@@ -7,14 +7,12 @@
 /* RESET */
 
 body{
-    
+    padding-bottom: 200px;
+    padding-top: 100px;
     width: 50%;
-    height: 100%;
     margin: auto;
 }
-.container{
-    margin-top: 20px;
-}
+
 .container-1{
     margin-top: 50px;
 }
