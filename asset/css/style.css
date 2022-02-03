@@ -1,0 +1,88 @@
+/* RESET */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* RESET */
+
+body{
+    
+    width: 50%;
+    height: 100%;
+    margin: auto;
+}
+.container{
+    margin-top: 30px;
+}
+.modello-1{
+    display: inline-block;display: inline-block;
+    margin-top: 30px;
+    position: relative;
+    height: 450px;
+    width: 300px;
+    margin-left: 10px;
+}
+.lato-a{
+    position: absolute;
+    width: 300px;
+    height: 450px;
+    z-index: 1;
+}
+.lato-b{
+    position: absolute;
+    width: 300px;
+    height: 450px;
+}
+.cuore{
+    display: inline;
+    position: absolute;
+    z-index: 3;
+    background-color: white;
+    width: 30px;
+    height: 30px;
+    right: 0;
+    top: 30px;
+    font-size: 20px;
+    text-align: center;
+    line-height: 30px;
+    vertical-align: middle;
+}
+.sconto{
+    display: inline;
+    position: absolute;
+    z-index: 3;
+    padding: 3px;
+    color: white;
+    background-color: red;
+    bottom: 20px;
+    left: 0;
+    font-size: 12px;
+}
+.sostenibile{
+    display: inline;
+    position: absolute;
+    z-index: 3;
+    color: white;
+    background-color: green;
+    bottom: 20px;
+    left: 37px;
+    padding: 3px;
+    font-size: 12px;
+}
+.lato-a:hover{
+    display: none;
+}
+.modello-1{
+    cursor: pointer;
+}
+.descrizione{
+    position: absolute;
+    top: 100%;
+}
+.descrizione > span{
+    display: block;
+}
+.t-red{
+    color: red;
+}
