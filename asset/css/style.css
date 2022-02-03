@@ -81,6 +81,9 @@ body{
     cursor: pointer;
 }
 .descrizione{
+    cursor: text;
+}
+.descrizione{
     position: absolute;
     top: 100%;
 }
