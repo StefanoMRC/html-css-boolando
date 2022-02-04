@@ -27,6 +27,11 @@ body{
     width: 300px;
     margin-left: 10px;
 }
+.contenitore-foto{
+    position: absolute;
+    width: 300px;
+    height: 450px;
+}
 .lato-a{
     position: absolute;
     width: 300px;
@@ -59,24 +64,24 @@ body{
 .sconto{
     display: inline;
     position: absolute;
-    z-index: 3;
     padding: 3px;
     color: white;
     background-color: red;
     bottom: 20px;
     left: 0;
     font-size: 12px;
+    z-index: 3;
 }
 .sostenibile{
     display: inline;
     position: absolute;
-    z-index: 3;
     color: white;
     background-color: green;
     bottom: 20px;
     left: 37px;
     padding: 3px;
     font-size: 12px;
+    z-index: 3;
 }
 .sostenibile-1{
     display: inline;
@@ -89,7 +94,8 @@ body{
     padding: 3px;
     font-size: 12px;
 }
-.lato-a:hover{
+
+.contenitore-foto:hover .lato-a {
     display: none;
 }
 .modello-1{
@@ -101,6 +107,7 @@ body{
 .descrizione{
     position: absolute;
     top: 100%;
+    z-index: 3;
 }
 .descrizione > span{
     display: block;
